@@ -1,4 +1,4 @@
-//1. Write a program to print whether a number is even or odd, also take input from the user.
+/*1. Write a program to print whether a number is even or odd, also take input from the user.
 
 import java.util.*;
 
@@ -15,4 +15,19 @@ public class Basics{
             System.out.println("NUmber is odd");
         }
     }
+} */
+
+//2. Take name as input and print a greeting message for that particular name.
+
+import java.util.*;
+public class Basics{
+    public static void main(String[] args) {
+       Scanner in = new Scanner(System.in);
+
+       System.out.println("Enter your name ");
+       String name = in.next();
+
+       System.out.println("Hello "+ name);
+    }
 }
+
