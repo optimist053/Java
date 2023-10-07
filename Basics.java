@@ -89,7 +89,7 @@ public class Basics {
 
 } */
 
-//5. Take 2 numbers as input and print the largest number.
+/* 5. Take 2 numbers as input and print the largest number.
 
 import java.util.*;
 public class Basics{
@@ -110,4 +110,21 @@ public class Basics{
             System.out.println("Both the numbers are equal ");
         }
     }
-}
+} */
+
+/*6. Input currency in rupees and output in USD.
+
+import java.util.*;
+public class Basics{
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+
+        System.out.println("Enter the Indian currency ");
+        float inr = in.nextFloat();
+
+        float USD = inr/80;
+
+        System.out.println("The Indian currency in USD is "+USD);
+    }
+} */
+
