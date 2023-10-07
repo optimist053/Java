@@ -89,4 +89,25 @@ public class Basics {
 
 } */
 
+//5. Take 2 numbers as input and print the largest number.
 
+import java.util.*;
+public class Basics{
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+
+        System.out.println("Enter the first number ");
+        float num1 = in.nextFloat();
+
+        System.out.println("Enter the second number ");
+        float num2 = in.nextFloat();
+
+        if (num1>num2) {
+            System.out.println("First number is largest ");
+        } else if (num2>num1){
+            System.out.println("Second number is Largest ");
+        } else{
+            System.out.println("Both the numbers are equal ");
+        }
+    }
+}
