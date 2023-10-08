@@ -201,7 +201,7 @@ public class Basics{
     }
 } */
 
-//11. Write a program to find the perimter of triangle 
+/*11. Write a program to find the perimter of triangle 
 
 import java.util.*;
 
@@ -222,7 +222,50 @@ public class Basics{
 
         System.out.println("The perimeter of the triangle is "+perimeter);
     }
-}
+} */
+
+
+/* 12. Write a program to find the area of rhombus using diagonals 
+
+import java.util.*;
+
+public class Basics{
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+
+        System.out.println("Enter the first diaonal ");
+        float d = in.nextFloat();
+
+        System.out.println("Enter the second diagonal ");
+        float D = in.nextFloat();
+
+        double area = 1/2*(d*D);
+
+        System.out.println("The area of the rhombus is "+area);
+    }
+} */
+
+/*13. Write a program to find the area of rectangle 
+
+import java.util.*;
+
+public class Basics{
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+
+        System.out.println("Enter the lenght of rectangle ");
+        float lenght = in.nextFloat();
+
+        System.out.println("Enter the breadth of rectangle ");
+        float breadth = in.nextFloat();
+
+        double area = lenght*breadth;
+
+        System.out.println("The area of the rectangle is "+area);
+    }
+} */
+
+//14. 
 
 
 
