@@ -128,3 +128,43 @@ public class Basics{
     }
 } */
 
+/*7. Find the area of circle
+
+import java.util.*;
+public class Basics{
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+
+        System.out.println("Enter the radius of the circle ");
+        float radius = in.nextFloat();
+
+        double area = (3.14*radius*radius);
+
+        System.out.println("The area of the circle is "+area);
+    }
+} */
+
+/*8. Write a program to find the area of triangle
+
+import java.util.*;
+
+public class Basics{
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+
+        System.out.println("Enter the Base of the triangle ");
+        float base = in.nextFloat();
+
+        System.out.println("Enter the height of the triabgle ");
+        float height = in.nextFloat();
+
+        double area = (1.0 /2.0)*base*height;
+
+        System.out.println("Area of the triangle is "+area);
+    }
+} */
+
+//9. 
+
+
+
